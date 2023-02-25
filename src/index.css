@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+   body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d3748;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #63b3ed;
+  }
